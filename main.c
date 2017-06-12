@@ -1,10 +1,9 @@
 #include<stdio.h>
-int main()
+void main()
 {
-int i;
-for (i = 0; i < 32; i++)
+int count;
+for (count= 1; count <=32;count++)
 {
-printf("Hello,Holberton\n");
+printf("Hello Holberton\n");
 }
-return 0;
 }
